@@ -39,6 +39,11 @@ class Car extends React.Component {
     inputClasses.push(classes.bold)
   }
 
+  // if(Math.random() > 0.7 ) {
+  //   throw new Error('Car error');
+  // }
+
+
   const style = {
     border: '1px solid #ccc',
     boxShadow: '0 4px 5px 0 rgba(0, 0, 0, .14)',
