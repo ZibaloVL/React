@@ -67,6 +67,10 @@ class App extends Component {
       textAlign: 'center'
     }
 
+    const couterStyle = {
+      margin: '20px'
+    }
+
     let cars = null
 
     if (this.state.showCars) {
@@ -90,7 +94,7 @@ class App extends Component {
     return (
       <div style={divStyle}>
         {/*<h1>{this.state.pageTitle}</h1>*/}
-        <Counter />
+        <Counter style={couterStyle} />
         <h1>{this.props.title}</h1>
 
         <button
